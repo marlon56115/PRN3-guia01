@@ -42,7 +42,7 @@ public class UtilidadesTest {
      */
     @Test
     public void testTextualizar() {
-        System.out.println("textualizar");
+        System.out.println("textualizar cosas raras");
         String marca = "fer";
         String modelo = "mas";
         String color = "ver";

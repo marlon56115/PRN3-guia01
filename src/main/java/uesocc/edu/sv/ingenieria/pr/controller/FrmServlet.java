@@ -43,7 +43,7 @@ public class FrmServlet extends HttpServlet {
             out.println("<title>Servlet del metodo post</title>");
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet FrmServlet at " + request.getContextPath() + "</h1>");
+            out.println("<h1>Servlet FrmServlet at las cosas " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }
@@ -81,7 +81,7 @@ public class FrmServlet extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>textualizar</title>");
+            out.println("<title>textualizar cosas raras</title>");
             out.println("</head>");
             out.println("<body>");
             String marca = request.getParameter("marca");

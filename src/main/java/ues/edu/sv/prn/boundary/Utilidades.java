@@ -39,6 +39,7 @@ public class Utilidades {
      * @param tipo
      * @return
      */
+    
     public String textualizar(String marca, String modelo, String color, String anio, String tipo) {
         marca = marca.substring(0, 1).toUpperCase() + marca.substring(1, marca.length());
         modelo = modelo.substring(0, 1).toUpperCase()  + modelo.substring(1, modelo.length());
